@@ -1,0 +1,10 @@
+name: impots_locaux
+account: slievain
+server: shinyapps.io
+appId: 145473
+bundleId: 651413
+url: https://slievain.shinyapps.io/impots_locaux/
+when: 1481813626.29814
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Data Products - Project.Rmd

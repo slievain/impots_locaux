@@ -1,0 +1,14 @@
+---
+title: "Data Products - Project"
+author: "Sébastien Lievain"
+date: "11/12/2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+```
