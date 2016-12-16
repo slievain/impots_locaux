@@ -3,7 +3,6 @@ title: "Data Products - Project"
 author: "Sébastien Lievain"
 date: "11/12/2016"
 output: ioslides_presentation
-runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -44,12 +43,9 @@ Manipulating `SpacialPolygonsDataFrame` data type was also challenging especiall
 
 
 ## Demo
-```{r}
-library(shiny)
 
-shinyAppDir("/Users/slievain/Documents/projet/Data Science/9. Developing Data Products/Assignment/impots_locaux", options = list(
-    width = "100%",
-    height = "100%"
-  ))
+<center>
+<img src="App.png" alt="Drawing" style="width: 780px"/>
 
-```
+[Click here to access app!!](https://slievain.shinyapps.io/impots_locaux/) 
+<center>
