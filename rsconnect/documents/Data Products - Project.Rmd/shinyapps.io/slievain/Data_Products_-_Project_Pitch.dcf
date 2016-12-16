@@ -1,0 +1,10 @@
+name: Data_Products_-_Project_Pitch
+account: slievain
+server: shinyapps.io
+appId: 145696
+bundleId: 652385
+url: https://slievain.shinyapps.io/Data_Products_-_Project_Pitch/
+when: 1481887311.86501
+asMultiple: FALSE
+asStatic: FALSE
+additionalFiles: ui.R|server.R|Data Products - Project.R|data/HTE-MARNE_fichedescriptive_7949.xlsx|data/ARDENNES_fichedescriptive_7903.xlsx|data/YVELINES_fichedescriptive_7976.xlsx|data/OISE_fichedescriptive_7957.xlsx

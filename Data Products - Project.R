@@ -21,8 +21,8 @@ recipient <- list("City" = "city",
                   "Special Equipment Projects" = "set",
                   "Total" = "total")
 
-type <- list("Absolute" = "abs",
-             "Quantiles" = "quantiles")
+type <- list("Quantiles" = "quantiles",
+             "Absolute" = "abs")
 
 # returns string w/o leading or trailing whitespace
 trim <- function (x) gsub("^\\s+|\\s+$", "", x)
