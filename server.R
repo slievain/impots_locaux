@@ -1,4 +1,5 @@
 library(shiny)
+print(list.files())
 source("Data Products - Project.R")
 
 shinyServer(function(input, output) {

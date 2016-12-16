@@ -30,15 +30,8 @@ bootstrapPage(
     absolutePanel(top = 10, right = 10, class = "info",
         h5("Use below inputs to update the map:"),
         
-        selectInput("dept", label = "Department:", choices = inputs, selected = "OISE"),
-        radioButtons("recip", "Recipient(s):",
-                     c("City" = "city",
-                       "Federation" = "federation",
-                       "Intercommunal" = "intercommunal",
-                       "Special Equipment Taxes" = "set",
-                       "Total" = "total"), width = "200px"),
-        radioButtons("palette", "Display data:",
-                     c("Quantiles" = "quantiles",
-                       "Absolute" = "abs"), width = "200px")
+        selectInput("dept", "Department:", inputs, selected = "OISE", width = "200px"),
+        radioButtons("recip", "Recipient(s):", recipient, width = "200px"),
+        radioButtons("palette", "Display Type:", type, width = "200px")
     )
 )

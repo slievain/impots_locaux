@@ -16,10 +16,11 @@ inputs <- list(
         'Vendée'='VENDEE', 'Vienne'='VIENNE', 'Vosges'='VOSGES', 'Yonne'='YONNE', 'Yvelines'='YVELINES')
 
 recipient <- list("City" = "city",
-                  "Federation" = "federation",
                   "Intercommunal" = "intercommunal",
-                  "Special Equipment Taxes" = "set",
+                  "Federation" = "federation",
+                  "Special Equipment Projects" = "set",
                   "Total" = "total")
+
 type <- list("Absolute" = "abs",
              "Quantiles" = "quantiles")
 
